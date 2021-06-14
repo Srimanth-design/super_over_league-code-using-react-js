@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.main-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  min-height: 100vh;
+}
+.main-head {
+  color: #f8fafc;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .main-head {
+    font-size: 65px;
+  }
+}
+
+.img-one {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-one {
+    height: 150px;
+    width: 150px;
+  }
+}
